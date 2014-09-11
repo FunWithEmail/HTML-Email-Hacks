@@ -1,84 +1,84 @@
-<h1> HTML-Email-Hacks </h1>
+ HTML-Email-Hacks
 ================
 
-<p>A series of HTML hacks for all those lovely Email clients out there
+A series of HTML hacks for all those lovely Email clients out there
 
-This repo is a place to put all of the HTML Email hacks we all depend on so much to get our campaigns looking and feeling sweet and spiffy. </p>
+This repo is a place to put all of the HTML Email hacks we all depend on so much to get our campaigns looking and feeling sweet and spiffy. 
 
-<h2>Click To Tap:</h2>
-<h3>   Change button text responsivly</h3>
+Click To Tap:
+   Change button text responsivly
 	
-<blockquote@media screen and (max-width:600px) {<br>
-span[class=click] {display: none !important; max-height: 0 !important;}<br>
+@media screen and (max-width:600px) {
+span[class=click] {display: none !important; max-height: 0 !important;}
 span[class=tap]:after {content:”Tap”;}<br>
-<br>
-<a href=”#”><span class=”tap”><span class=”click”>Click</span></span> here</a></blockquote>
+
+<a href=”#”><span class=”tap”><span class=”click”>Click</span></span> here</a>
   
-<h2>Kill Gmail App Zooming:</h2>
-<h3>	  Stop Gmail app from zooming text</h3>
+Kill Gmail App Zooming:
+	  Stop Gmail app from zooming text
 	  
-<blockquote>style=”min-width:600px;”</blockquote>
+style=”min-width:600px;”
 	 
-<h2>Target Webkit Clients:</h2>
-<h3>	  Webkit support is best support</h3>
+Target Webkit Clients:
+	  Webkit support is best support
 	  
-<blockquote>@media screen and (-webkit-min-device-pixel-ratio:0) { }</blockquote>
+@media screen and (-webkit-min-device-pixel-ratio:0) { }
   
-<h2>Margins and Float in Outlook:</h2>
-<h3>	  Use a capital “M” or “F”</h3>
+Margins and Float in Outlook:
+	  Use a capital “M” or “F”
 	  
-<blockquote>style=”Margin: 20px; Float: left”</blockquote>
+style=”Margin: 20px; Float: left”
 
-<h2>Interactive Email in Gmail:</h2>
-<h3> 	No Class or ID selector support</h3>
+Interactive Email in Gmail:
+ 	No Class or ID selector support
 
-<blockquote>* [lang~=”x-selector”] { }
-<div lang=”x-selector”>
-Use lang as selector with “x-” prefix</blockquote>
+>Use lang as selector with "x-" prefix
+>\* [lang~="x-selector"] { }
+><div lang=”x-selector”\>
 
-<h2>Interactive Email con’t - Hover!:</h2>
-<h3>   Hover effect works on these clients:</h3>
+Interactive Email con’t - Hover!:
+   Hover effect works on these clients:
 
-<blockquote>Gmail - * [lang~=”x-selector”]:hover { }
-Outlook Web - .class:hover
-Yahoo! Web - .class:hover</blockquote>
+>Gmail - * [lang~="x-selector"]:hover { }
+>Outlook Web - .class:hover
+>Yahoo! Web - .class:hover
 
-<h2>Outlook “View in Browser”:</h2>
-<h3> 	Forces Outlook to provide a “view in browser link”</h3>
+Outlook “View in Browser”:
+ 	Forces Outlook to provide a “view in browser link”
 
-<blockquote>#outlook a {padding: 0;}</blockquote>
+>#outlook a {padding: 0;}
 
-<h2>Images in Outlook 2013:</h2>
-<h3> 	Fix broken images in Outlook 2013</h3>
+Images in Outlook 2013:
+ 	Fix broken images in Outlook 2013
 
-<blockquote><td style=”line-height: 13px;”>
+><td style=”line-height: 13px;”>
 	 <img src=”img.jpg”>
-</td></blockquote>
+></td>
 
-<h2>Remove autolink styling in iOS:</h2>
-<h3> 	Fix automatic styling of phone numbers, etc.</h3>
+Remove autolink styling in iOS:
+ 	Fix automatic styling of phone numbers, etc.
 
-<h5>Use a span:
-<blockquote><span class=”appleLinksBlack”>866-787-7030</span></blockquote>
+>Use a span:
+><span class=”appleLinksBlack”>866-787-7030</span>
 
-<h2>Stop some clients from stripping class:</h2>
-<h3> 	Some clients strip any lines starting with “.”</h3>
+Stop some clients from stripping class:
+ 	Some clients strip any lines starting with “.”
 
-<h5>Use a space before any class styleing
-<blockquote> .selector { }</blockquote>
+>Use a space before any class styleing
+> .selector { }
 
-<h2>Hide content in Office 365 (incl GM Webmail):</h2>
-<h3> 	Office 365 strips display, mso-hide, mso conditional</h3>
+Hide content in Office 365 (incl GM Webmail):
+ 	Office 365 strips display, mso-hide, mso conditional
 
-<h5>Set font-size in containing cell to “0px”
-<blockquote><td style=”font-size: 0px; display: none;></blockquote>
+>Set font-size in containing cell to “0px”
+><td style=”font-size: 0px; display: none;>
 
-<h2>Good formatting for bulleted list:</h2>
-<h3> 	Stops bullet from sitting between two lines</h3>
+Good formatting for bulleted list:
+ 	Stops bullet from sitting between two lines
 
-<blockquote><table>
-	<tr>
-		<td valign=”top”>&bull;</td>
-		<td>Prolongs oil life</td>
-	</tr>
-</table></blockquote>
+><table>
+>	<tr>
+>		<td valign=”top”\>&bull;</td>
+>		<td>List item</td>
+>	</tr>
+></table>
