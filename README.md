@@ -78,11 +78,9 @@ Set font-size in containing cell to “0px”<br>
 ##Good formatting for bulleted list:
 #### 	Stops bullet from sitting between two lines
 
-<blockquote>
-<table>
-	<tr&gt;
-		<td valign=”top”&gt;&amp;bull;</td&gt;
-		<td&gt;List item</td&gt;
-	</tr&gt;
-</table&gt;
-</blockquote>
+><table&gt;  
+>&nbsp;&nbsp;&nbsp;&nbsp;  <tr&gt;  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <td valign=”top”&gt;&amp;bull;</td&gt;  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <td&gt;Prolongs oil life</td&gt;  
+>&nbsp;&nbsp;&nbsp;&nbsp;  </tr&gt;  
+></table&gt;
