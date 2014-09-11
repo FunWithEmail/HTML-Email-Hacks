@@ -66,21 +66,23 @@ Use a span:
 ##Stop some clients from stripping class:
 #### 	Some clients strip any lines starting with “.”
 
->Use a space before any class styleing
+Use a space before any class styleing
 > .selector { }
 
 ##Hide content in Office 365 (incl GM Webmail):
 #### 	Office 365 strips display, mso-hide, mso conditional
 
->Set font-size in containing cell to “0px”<br>
+Set font-size in containing cell to “0px”<br>
 ><td style=”font-size: 0px; display: none;&gt;
 
 ##Good formatting for bulleted list:
 #### 	Stops bullet from sitting between two lines
 
-><table&gt; <br>
->	<tr&gt; <br>
->		<td valign=”top”&gt;&bull;</td&gt; <br>
->		<td&gt;List item</td&gt; <br>
->	</tr&gt; <br>
-></table&gt;
+<blockquote>
+<table>
+	<tr&gt;
+		<td valign=”top”&gt;&amp;bull;</td&gt;
+		<td&gt;List item</td&gt;
+	</tr&gt;
+</table&gt;
+</blockquote>
