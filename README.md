@@ -41,9 +41,12 @@ Use lang as selector with "x-" prefix<br>
 ##Interactive Email con’t - Hover!:
 ####   Hover effect works on these clients:
 
-Gmail: >* [lang~="x-selector"]:hover { }<br>
-Outlook Web: >.class:hover<br>
-Yahoo! Web: >.class:hover
+Gmail: 
+>* [lang~="x-selector"]:hover { }<br>
+Outlook Web: 
+>.class:hover<br>
+Yahoo! Web: 
+>.class:hover
 
 ##Outlook “View in Browser”:
 #### 	Forces Outlook to provide a “view in browser link”
