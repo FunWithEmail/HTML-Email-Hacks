@@ -42,9 +42,11 @@ Use lang as selector with "x-" prefix<br>
 ####   Hover effect works on these clients:
 
 Gmail: 
->* [lang~="x-selector"]:hover { }<br>
+>\* [lang~="x-selector"]:hover { }
+
 Outlook Web: 
->.class:hover<br>
+>.class:hover
+
 Yahoo! Web: 
 >.class:hover
 
