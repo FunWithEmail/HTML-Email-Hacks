@@ -34,7 +34,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 ##Interactive Email in Gmail:
 ####	No Class or ID selector support
 
->Use lang as selector with "x-" prefix<br>
+Use lang as selector with "x-" prefix<br>
 >\* [lang~="x-selector"] { }<br>
 ><div lang="x-selector"&gt;
 
