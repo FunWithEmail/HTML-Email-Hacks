@@ -89,3 +89,12 @@ Set font-size in containing cell to “0px”<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <td&gt;Prolongs oil life</td&gt;  
 >&nbsp;&nbsp;&nbsp;&nbsp;  </tr&gt;  
 ></table&gt;
+
+##Ghost column to emulate "align" in Outlook
+####	Outlook hates "align"; we love conditionals
+
+><td&gt;  
+>Table X  
+><!--[if mso]&gt;</td&gt;<td&gt;<![endif]--&gt;  
+>Table Y  
+></td&gt;  
