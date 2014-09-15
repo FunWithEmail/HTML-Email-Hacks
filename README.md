@@ -125,3 +125,12 @@ Set font-size in containing cell to “0px”<br>
 ><meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
 
 <em>-courtesy of zerocents</em>
+
+##Fix mailto in Outlook.com
+####	Outlook.com stops mailto from opening a new message
+
+Add "target=_blank
+
+><a href="#" target="_blank"&gt;Link</a&gt;
+
+<em>-courtesy of Matthijs</em>
