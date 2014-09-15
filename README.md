@@ -134,3 +134,12 @@ Add "target=_blank
 ><a href="#" target="_blank"&gt;Link</a&gt;
 
 <em>-courtesy of Matthijs</em>
+
+##Fix mailto in gmail
+####	gmail strips subject and body from mailto links
+
+Use lowercase for subject anbd body attribute
+
+><a href="mailto:some_email@email.com?subject=A Subject&body=A Body"&gt;email@email.com</a&gt;
+
+<em>-courtesy of SV</em>
