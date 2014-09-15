@@ -80,11 +80,15 @@ Yahoo! Web:
 Use a span:
 ><span class=”appleLinksBlack”&gt;866-787-7030</span&gt;
 
+<em>-courtesy of Justine Jordan</em>
+
 ##Stop some clients from stripping class:
 #### 	Some clients strip any lines starting with “.”
 
-Use a space before any class styleing
+Use a space before any class styling
 > .selector { }
+
+<em>-courtesy of Campaign Monitor http://kb.mailchimp.com/campaigns/ways-to-build/using-css-in-campaigns</em>
 
 ##Hide content in Office 365 (incl GM Webmail):
 #### 	Office 365 strips display, mso-hide, mso conditional
@@ -102,6 +106,8 @@ Set font-size in containing cell to “0px”<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;  </tr&gt;  
 ></table&gt;
 
+<em>-courtesy of Michelle Klann</em>
+
 ##Ghost column to emulate "align" in Outlook
 ####	Outlook hates "align"; we love conditionals
 
@@ -111,7 +117,11 @@ Set font-size in containing cell to “0px”<br>
 >Table Y  
 ></td&gt;  
 
+<em>-courtesy of Jaina Mistry</em>
+
 ##Windows Phone media query and CSS3 support
 ####	Stripping out DOCTYPE enters quirks mode. Let's fix that.
 
 ><meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+
+<em>-courtesy of zerocents</em>
