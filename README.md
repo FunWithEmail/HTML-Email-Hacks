@@ -98,3 +98,8 @@ Set font-size in containing cell to “0px”<br>
 ><!--[if mso]&gt;</td&gt;<td&gt;<![endif]--&gt;  
 >Table Y  
 ></td&gt;  
+
+##Windows Phone media query and CSS3 support
+####	Stripping out DOCTYPE enters quirks mode. Let's fix that.
+
+><meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
