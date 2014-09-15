@@ -90,7 +90,7 @@ Use a space before any class styling
 
 <em>-courtesy of Campaign Monitor http://kb.mailchimp.com/campaigns/ways-to-build/using-css-in-campaigns</em>
 
-##Hide content in Office 365 (incl GM Webmail):
+##Hide content in Office 365 (incl Webmail):
 #### 	Office 365 strips display, mso-hide, mso conditional
 
 Set font-size in containing cell to “0px”<br>
