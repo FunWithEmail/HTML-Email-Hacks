@@ -1,7 +1,7 @@
  HTML-Email-Hacks
 ================
 
-A series of HTML hacks for all those lovely Email clients out there
+A series of HTML hacks for all those lovely Email clients out there.
 
 This repo is a place to put all of the HTML Email hacks we all depend on so much to get our campaigns looking and feeling sweet and spiffy. 
 
@@ -15,21 +15,29 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 >span[class=tap]:after {content:”Tap”;}<br><br>
 
 ><a href=”#”&gt;<span class=”tap”&gt;<span class=”click”&gt;Click</span&gt;</span&gt; here</a&gt;
+
+<em>-courtesy of Nicole Merlin</em>
   
 ##Kill Gmail App Zooming:
 ####	  Stop Gmail app from zooming text
 	  
 >style=”min-width:600px;”
+
+<em>-courtesy of Chris Wise</em>
 	 
 ##Target Webkit Clients:
 ####	  Webkit support is best support
 	  
 >@media screen and (-webkit-min-device-pixel-ratio:0) { }
+
+<em>-courtesy of Kevin Mandeville</em>
   
 ##Margins and Float in Outlook:
 ####	  Use a capital “M” or “F”
 	  
 >style=”Margin: 20px; Float: left”
+
+<em>-courtesy of Nicole Merlin</em>
 
 ##Interactive Email in Gmail:
 ####	No Class or ID selector support
@@ -37,6 +45,8 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 Use lang as selector with "x-" prefix<br>
 >\* [lang~="x-selector"] { }<br>
 ><div lang="x-selector"&gt;
+
+<em>-courtesy of Justin at FreshInbox</em>
 
 ##Interactive Email con’t - Hover!:
 ####   Hover effect works on these clients:
@@ -49,6 +59,8 @@ Outlook Web:
 
 Yahoo! Web: 
 >.class:hover
+
+<em>-courtesy of Justin at FreshInbox</em>
 
 ##Outlook “View in Browser”:
 #### 	Forces Outlook to provide a “view in browser link”
