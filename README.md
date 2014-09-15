@@ -8,7 +8,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 ---
 
 ##Click To Tap:
-####   Change button text responsivly
+####   Change button text responsively
 	
 >@media screen and (max-width:600px) {<br>
 >span[class=click] {display: none !important; max-height: 0 !important;}<br>
