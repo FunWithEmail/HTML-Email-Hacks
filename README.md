@@ -113,18 +113,20 @@ Set font-size in containing cell to “0px”<br>
 
 ><td&gt;  
 >Table X  
-><!--[if mso]&gt;</td&gt;<td&gt;<![endif]--&gt;  
+><\!--[if mso]&gt;</td&gt;<td&gt;<![endif]--&gt;  
 >Table Y  
 ></td&gt;  
 
 <em>-courtesy of Jaina Mistry</em>
 
 ##Windows Phone media query and CSS3 support
-####	Stripping out DOCTYPE enters quirks mode. Let's fix that.
+####	Stripping out DOCTYPE defaults IE7 rendering on Windows Phone 8 and IE9 on Windows Phone 7. Let's use IE10!
 
 ><meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
 
-<em>-courtesy of zerocents</em>
+<em> For more information see http://blog.jmwhite.co.uk/2014/08/19/email-campaigns-windows-phone-part-2-pop3-and-imap/</em>
+
+<em>-courtesy of zerocents and James White</em>
 
 ##Fix mailto in Outlook.com
 ####	Outlook.com stops mailto from opening a new message
