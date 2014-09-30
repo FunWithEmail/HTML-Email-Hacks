@@ -7,6 +7,17 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 
 ---
 
+##Links and Helpful Tools
+
+* Responsive Email Resources: www.ResponsiveEmailResources.com  
+* Bulletproof Buttons: www.buttons.cm  
+* Bulletproof Backgrounds: www.backgrounds.cm  
+* HTML Email Boilerplate: www.http://htmlemailboilerplate.com  
+* Special characters for HTML Email: http://www.emailonacid.com/character_converter/  
+* Send HTML Email with Google Docs: http://www.labnol.org/internet/send-html-email/19672/
+
+---
+
 ##Click To Tap:
 ####   Change button text responsively
 	
