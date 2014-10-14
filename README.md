@@ -162,9 +162,10 @@ Use lowercase for subject anbd body attribute
 ##Image gaps in Office 365 (OWA)
 ####	Office 365 strips display:block causing images to have massive gaps
 
-Wrapping an image in a &lt;div&gt; will simulate a block element for clients that won't accept display:block; inline on the image itself, you then set a height equal to the image height on the created <div>
+Wrapping an image in a &lt;div&gt; with a height equal to the image height will simulate
+a block element for clients that won't accept display:block.
 
-The addition of font-size:0; is to zero out any other gap space created, because I still noticed some images have gaps, contrary to the original article from EOA.
+The addition of font-size:0; is to zero out any other gaps created.
 
 ><div style="height:125px; font-size:0;"&gt;  
 >    <img src="/path/to/image.jpg" alt="Image Description" style="display:block;" width="200" height="125" /&gt;  
