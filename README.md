@@ -15,6 +15,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 * HTML Email Boilerplate: www.http://htmlemailboilerplate.com  
 * Special characters for HTML Email: http://www.emailonacid.com/character_converter/  
 * Send HTML Email with Google Docs: http://www.labnol.org/internet/send-html-email/19672/
+* SpamAssassin Spam Scores: http://spamassassin.apache.org/tests_3_0_x.html/
 
 ---
 
@@ -172,5 +173,7 @@ The addition of font-size:0; is to zero out any other gaps created.
 ></div&gt;
 
 <em> For more information visit: http://www.emailonacid.com/blog/details/C13/two_fixes_for_image_spacing_in_outlook_web_app_owa</em>
+
+Warning: Small font sizes can effect your spam score.
 
 <em>-courtesy of James White at http://blog.jmwhite.co.uk</em>
