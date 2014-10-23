@@ -169,7 +169,7 @@ Set font-size in containing cell to “0px”
 </td>
 ```
 
-<em>-courtesy of Jaina Mistry</em>
+<em>-courtesy of Mike Ragan http://labs.actionrocket.co/make_mobile_email_work_in_outlook</em>
 
 ##Windows Phone media query and CSS3 support
 ####	Stripping out DOCTYPE defaults IE7 rendering on Windows Phone 8 and IE9 on Windows Phone 7. Let's use IE10!
