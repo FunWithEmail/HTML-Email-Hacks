@@ -15,7 +15,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 * HTML Email Boilerplate: www.http://htmlemailboilerplate.com  
 * Special characters for HTML Email: http://www.emailonacid.com/character_converter/  
 * Send HTML Email with Google Docs: http://www.labnol.org/internet/send-html-email/19672/
-* SpamAssassin Spam Scores: http://spamassassin.apache.org/tests_3_0_x.html/
+* SpamAssassin Spam Scores: http://spamassassin.apache.org/tests_3_0_x.html
 
 ---
 
