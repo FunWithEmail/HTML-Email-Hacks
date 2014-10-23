@@ -171,14 +171,14 @@ Set font-size in containing cell to “0px”
 
 <em>-courtesy of Mike Ragan http://labs.actionrocket.co/make_mobile_email_work_in_outlook</em>
 
-##Windows Phone media query and CSS3 support
-####	Stripping out DOCTYPE defaults IE7 rendering on Windows Phone 8 and IE9 on Windows Phone 7. Let's use IE10!
+##Windows Phone 8 CSS3 support (IE Mobile)
+####	Windows Phone 8 renders with IE7 standards by default with POP3/IMAP accounts
 
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 ```
 
-Note: Exchange ActiveSync based accounts do not benefit from forcing the document mode because the rendering engine is different (not IE), the doctype also gets preserved in this case.
+Note: Exchange ActiveSync based accounts do not benefit from forcing the document mode because the rendering engine is not IE Mobile.
 
 <em> For more information see http://blog.jmwhite.co.uk/2014/08/19/email-campaigns-windows-phone-part-2-pop3-and-imap/</em>
 
