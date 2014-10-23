@@ -218,7 +218,7 @@ a block element for clients that won't accept `display:block`.
 </div>
 ```
 
-In some cases the addition of font-size:0; may be required in order to remove further gaps created by certain CSS properties set on the parent element i.e. table cell such as line-height.
+In some cases the addition of `font-size:0;` may be required in order to remove further gaps created by certain CSS properties set on the parent element i.e. table cell such as line-height.
 
 Warning: Small font sizes can effect your spam score.
 
