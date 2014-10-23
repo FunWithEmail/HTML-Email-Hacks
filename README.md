@@ -106,7 +106,7 @@ Yahoo! Web:
 
 ```html
 <td style="line-height: 13px;">
-	<img src="img.jpg">
+	<img src="img.jpg" />
 </td>
 ```
 
