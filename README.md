@@ -17,6 +17,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 * Send HTML Email with Google Docs: http://www.labnol.org/internet/send-html-email/19672/
 * SpamAssassin Spam Scores: http://spamassassin.apache.org/tests_3_0_x.html
 * W3C HTML for email Community Group: http://www.w3.org/community/htmail/participants
+* The Ultimate Guide to CSS: https://www.campaignmonitor.com/css/
 
 ---
 
