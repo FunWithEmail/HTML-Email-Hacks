@@ -1,0 +1,779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Test</title>
+    <style>
+
+
+         @import url(https://fonts.googleapis.com/css?family=Roboto:300); /*Calling our web font*/
+
+        /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+        body{ width:100% !important; -webkit-text; size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; }
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;} 
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}   
+        
+        /* End reset */
+        
+        
+        /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+                
+                
+            /* Display block allows us to stack elements */                      
+            *[class="mobile-column"] {display: block;}
+            
+            /* Some more stacking elements */
+            *[class="mob-column"] {float: none !important;width: 100% !important;}
+            
+            /* Hide stuff */
+            *[class="hide"] {display:none !important;}
+            
+            /* This sets elements to 100% width and fixes the height issues too, a god send */
+            *[class="100p"] {width:100% !important; height:auto !important;}            
+                
+            /* For the 2x2 stack */         
+            *[class="condensed"] {padding-bottom:40px !important; display: block;}
+            
+            /* Centers content on mobile */
+            *[class="center"] {text-align:center !important; width:100% !important; height:auto !important;}
+            
+            /* 100percent width section with 20px padding */
+            *[class="100pad"] {width:100% !important; padding:20px;}
+            
+            /* 100percent width section with 20px padding left & right */
+            *[class="100padleftright"] {width:100% !important; padding:0 20px 0 20px;}
+            
+            /* 100percent width section with 20px padding top & bottom */
+            *[class="100padtopbottom"] {width:100% !important; padding:20px 0px 20px 0px;}
+            
+        
+        }
+            
+        
+    </style>
+    
+   
+</head>
+
+<body style="padding:0; margin:0" bgcolor="#687079">
+
+    <table border="0" cellpadding="0" cellspacing="0" style="margin: 0; padding: 0" width="100%">
+        <tr>
+            <td align="center" valign="top">
+                <!-- Top Spacing -->
+                <table width="620" border="0" cellspacing="0" cellpadding="0" class="hide">
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                </table>
+
+                <!-- Preheader -->
+                <table width="620" border="0" cellspacing="0" cellpadding="5" bgcolor="#e0dcdb" class="100p">
+                    <tr>
+                        <td align="center" width="100%" style="font-size:14px; color:#848484;"><font face="'Roboto', Arial, sans-serif">Fii pe faza sosesc noile arivaje</font></td>
+                    </tr>
+                </table>
+                <!-- Banner -->
+                <table width="620" cellspacing="0" cellpadding="0" class="100p" bgcolor="">
+                    <tr>
+                        <td bgcolor="#ffffff" width="620" valign="top" class="100p">
+                            <table border="0" cellspacing="0" cellpadding="0" class="100p">
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" class="100p">
+                                            <tr>
+                                                <td align="left" width="100%" class="100p"><img src="http://placehold.it/620x200/db301f/ffea00" alt="BRICO DEPOT. DIN 28 NOIEMBRIE, DE LA 7:00, NOI ARIVAJE EXCEpTIONALE" border="0" style="display:block;max-width:100%;color:#ffea00;font-size:16px;"/></td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Separator -->
+                <table width="620" border="0" cellspacing="0" cellpadding="0" bgcolor="#687079" class="100p">
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                </table>
+
+                <!-- Imagini 4 coloane -->
+                <!-- <table width="620" border="0" cellspacing="0" cellpadding="0" class="100p" bgcolor="#DB301F">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="100padtopbottom" width="620">
+                                <tr>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="155">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                         <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="155" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/ff321e/ffe0aa">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="155">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="155" align="center" style="font-size:18px; color:#ffffff;">
+                                                                          <img src="http://placehold.it/155x155/ff4f3d/ffe0aa">      
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="155">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="155" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/ff8b80/ffe0aa"></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="155">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="155" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/fb7b6e/ffe0aa">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+ -->                <!-- Imagini 2 x 2 -->
+                <!-- <table width="620" border="0" cellspacing="0" cellpadding="0" class="100p" bgcolor="#DB301F">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="100padtopbottom" width="620">
+                                <tr>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="310">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                         <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="155" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/b5ffcf/444444">
+                                                                        </td>
+                                                                        <td valign="top" width="155" align="center"  style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/9affbe/444444">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="280">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="155" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/78ffa8/444444">
+                                                                        </td>
+                                                                        <td valign="top" width="155" align="center"  style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/155x155/1dff6d/444444">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table> -->
+                <!-- Imagini 3 coloane -->
+                <table width="620" border="0" cellspacing="0" cellpadding="0" class="100p" bgcolor="#DB301F">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="100padtopbottom" width="620">
+                                <tr>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="200">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                         <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/200x300/ff321e/ffe0aa">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="10"></tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <font face="Helvetica, Arial, sans-serif">
+                                                                                Denumire produs
+                                                                            </font>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" class="hide"></td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="200">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                          <img src="http://placehold.it/200x300/ff4f3d/ffe0aa">      
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="10"></tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <font face="Helvetica, Arial, sans-serif">
+                                                                                Denumire produs
+                                                                            </font>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" class="hide"></td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="200">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/200x300/ff8b80/ffe0aa"></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="10"></tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <font face="Helvetica, Arial, sans-serif">
+                                                                                Denumire produs
+                                                                            </font>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="40"></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="200">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                         <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/200x300/ff321e/ffe0aa">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="10"></tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <font face="Helvetica, Arial, sans-serif">
+                                                                                Denumire produs
+                                                                            </font>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" class="hide"></td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="200">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                          <img src="http://placehold.it/200x300/ff4f3d/ffe0aa">      
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="10"></tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <font face="Helvetica, Arial, sans-serif">
+                                                                                Denumire produs
+                                                                            </font>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" class="hide"></td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="200">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <img src="http://placehold.it/200x300/ff8b80/ffe0aa"></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="10"></tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="200" align="center" style="font-size:18px; color:#ffffff;">
+                                                                            <font face="Helvetica, Arial, sans-serif">
+                                                                                Denumire produs
+                                                                            </font>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td height="10"></td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Produse -->
+                <!-- <table width="620" border="0" cellspacing="0" cellpadding="20" class="100p" bgcolor="#DB301F">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="100padtopbottom" width="580">
+                                <tr>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="280">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" align="center" class="100padleftright">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="280" align="center"><a href="#"><img src="_https://placehold.it/280x280" border="0" alt="Nume Produs - Pret" style="display:block;max-width:100%;color:#ffea00;font-size:22px" width="280" height="280"/></a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="280" align="center" style="font-size:16px; color:#ffffff;"><font face="'Roboto', Arial, sans-serif">Produs Brico Depot<br>
+                                                                            299 lei</font></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" class="hide"></td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="280">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" align="center" class="100padleftright">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="280" align="center"><a href="#"><img src="_https://placehold.it/280x280" border="0" alt="Nume Produs - Pret" style="display:block;max-width:100%;color:#ffea00;font-size:22px" width="280" height="280"/></a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="280" align="center" style="font-size:16px; color:#ffffff;"><font face="'Roboto', Arial, sans-serif">Produs Brico Depot<br>
+                                                                            299 lei</font></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="50" class="hide"></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="280">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" align="center" class="100padleftright">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="280" align="center"><a href="#"><img src="_https://placehold.it/280x280" border="0" alt="Nume Produs - Pret" style="display:block;max-width:100%;color:#ffea00;font-size:22px" width="280" height="280"/></a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="280" align="center" style="font-size:16px; color:#ffffff;"><font face="'Roboto', Arial, sans-serif">Produs Brico Depot<br>
+                                                                            299 lei</font></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" class="hide"></td>
+                                    <td align="left" class="condensed" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="280">
+                                            <tr>
+                                                <td valign="top" align="center">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" align="center" class="100padleftright">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="280" align="center"><a href="#"><img src="_https://placehold.it/280x280" border="0" alt="Nume Produs - Pret" style="display:block;max-width:100%;color:#ffea00;font-size:22px" width="280" height="280"/></a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" class="100padleftright" align="center">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="280" align="center" style="font-size:16px; color:#ffffff;"><font face="'Roboto', Arial, sans-serif">Produs Brico Depot<br>
+                                                                            299 lei</font></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table> -->
+                <!-- CTA -->
+                <!-- <table width="620" cellspacing="0" cellpadding="0" bgcolor="#" class="100p">
+                    <tr>
+                        <td bgcolor="#DB301F" width="620" valign="top" class="100p">
+                            <table width="620" border="0" cellspacing="0" cellpadding="20" class="100p">
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="580" class="100p">
+                                             <tr>
+                                                <td align="center" style="color:#FFFFFF; font-size:24px;">
+                                                    <font face="'Roboto', Arial, sans-serif">
+                                                        <a href="##" style="color:#FFFFFF; text-decoration:none;">
+                                                        <table border="0" cellspacing="0" cellpadding="10" style="border:2px solid #FFFFFF;">
+                                                            <tr>
+                                                                <td align="center" style="color:#FFFFFF; font-size:22px;text-transform:uppercase;"><font face="'Roboto', Arial, sans-serif"><a href="##" style="color:#FFFFFF; text-decoration:none;">Vezi produsele inainte sa se epuizeze</a></font></td>
+                                                            </tr>
+                                                        </table>
+                                                        </a>
+                                                    </font>
+                                                </td>
+                                            </tr>
+                                            <tr><td height="25" class="hide"></td></tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table> -->
+                <!-- Scule -->
+                <!-- <table width="620" cellspacing="0" cellpadding="0" bgcolor="#" class="100p">
+                    <tr>
+                        <td bgcolor="#db301f" width="620" valign="top" class="100p">
+                                    <div>
+                                        <table width="620" border="0" cellspacing="0" cellpadding="0" class="100p">
+                                            <tr>
+                                                <td valign="top">
+                                                    <table bgcolor="#db301f" border="0" cellspacing="0" cellpadding="0" width="620" class="100p">
+                                                        <tr>
+                                                            <td align="center" width="100%" class="100p"><img src="_https://gallery.mailchimp.com/020868bb324bb31cb76fc47b0/images/afabacd4-a9d9-4885-9175-fdbf1f8ce0ae.jpg" alt="ARIVAJ" border="0" style="display:block; max-width:100%; color:#ffea00;font-size:22px;" width="580" height="190"/></td>
+                                                            
+                                                        </tr>
+                                                    </table>
+ 
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                        </td>
+                    </tr>
+                </table> -->
+                <!-- Titlu Locatii -->
+                <!-- <table width="620" border="0" cellspacing="0" cellpadding="10" bgcolor="#231f20" class="100p">
+                    <tr>
+                        <td align="center" style="font-size:16px; color:#848484;"><font face="'Roboto', Arial, sans-serif"><span style="color:#ffea00; font-size:30px;text-transform:uppercase;">Depozitul tuturor:<br>pentru profesionisti si particulari</span><br />
+                        <a href="" style="font-size:22px;color:#ffffff;text-underline:none;text-transform:uppercase;">Vino in cea mai apropiata locatie</a></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                </table> -->
+                <!-- Locatii -->
+                <!-- CTA -->
+                <!-- <table width="620" border="0" cellspacing="0" cellpadding="20" bgcolor="#DB301F" class="100p">
+                    <tr>
+                        <td align="center" style="font-size:16px; color:#ffffff;"><font face="'Roboto', Arial, sans-serif"><img src="/images/cta-arivaj_02.jpg" alt="Vezi acum produsele din Arivaj" style="display:block;color:#ffea00;font-size:22px;" width="580" height="88">
+                            <br />
+                            <span style="font-size:22px;text-transform:uppercase;color:#ffea00;">Gasesti aici tot ce-ti trebuie</span><br>
+                            <a href="" style="font-size:28px;text-transform:uppercase;color:#ffffff">Vezi catalogul online</a>
+                        </font>
+                        </td>
+                    </tr>
+                </table> -->
+                <!-- Footer -->
+                <!-- <table width="620" border="0" cellspacing="0" cellpadding="10" bgcolor="#ffffff" class="100p">
+                    <tr>
+                        <td align="center" width="100%" style="font-size:14px; color:#848484;line-height:1.6">
+                            <font face="'Roboto', Arial, sans-serif">&copy; Brico Depot 2014 | Calea Giulesti NR. 1-3, sector 6 Bucuresti | 0374 24 00 11 <br>
+                            Dezabonare | Editare preferinte abonare | Deschide email in browser        
+                            </font>
+                        </td>
+                      
+                    </tr>
+                </table> -->
+                <table width="620" class="100p" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                </table>
+
+                <!-- Banner -->
+                <table width="620" cellspacing="0" cellpadding="0" class="100p" bgcolor="">
+                    <tr>
+                        <td bgcolor="#ffffff" width="620" valign="top" class="100p">
+                            <table border="0" cellspacing="0" cellpadding="0" class="100p">
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" class="100p">
+                                            <tr>
+                                                <td align="left" width="100%" class="100p"><img src="http://placehold.it/620x200/db301f/ffea00" alt="BRICO DEPOT. DIN 28 NOIEMBRIE, DE LA 7:00, NOI ARIVAJE EXCEpTIONALE" border="0" style="display:block;max-width:100%;color:#ffea00;font-size:16px;"/></td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Footer -->
+                <table width="620" border="0" cellspacing="0" cellpadding="10" bgcolor="#ffffff" class="100p">
+                    <tr>
+                        <td align="center" width="100%" style="font-size:14px; color:#848484;line-height:1.6">
+                            <font face="'Roboto', Arial, sans-serif">&copy; Brico Depot 2014 | Calea Giulesti NR. 1-3, sector 6 Bucuresti | 0374 24 00 11 <br>
+                            Dezabonare | Editare preferinte abonare | Deschide email in browser        
+                            </font>
+                        </td>
+                      
+                    </tr>
+                </table>
+
+                <table width="620" class="100p" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="50"></td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+
