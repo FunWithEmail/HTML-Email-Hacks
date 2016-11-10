@@ -200,7 +200,7 @@ Add `"target=_blank"`
 ##Fix mailto in gmail
 ####	gmail strips subject and body from mailto links
 
-Use lowercase for subject anbd body attribute
+Use lowercase for subject and body attribute
 
 ```html
 <a href="mailto:some_email@email.com?subject=A Subject&body=A Body">email@email.com</a>
