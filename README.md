@@ -7,7 +7,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 
 ---
 
-##Links and Helpful Tools
+## Links and Helpful Tools
 
 * Responsive Email Resources: www.ResponsiveEmailResources.com  
 * Bulletproof Buttons: www.buttons.cm  
@@ -21,7 +21,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 
 ---
 
-##Click To Tap:
+## Click To Tap:
 ####   Change button text responsively
 
 ```css	
@@ -36,7 +36,7 @@ This repo is a place to put all of the HTML Email hacks we all depend on so much
 
 <em>-courtesy of Nicole Merlin</em>
   
-##Kill Gmail App Zooming:
+## Kill Gmail App Zooming:
 ####	  Stop Gmail app from zooming text
 	  
 ```html
@@ -44,7 +44,7 @@ style="min-width:600px;"
 ```
 <em>-courtesy of Chris Wise</em>
 	 
-##Target Webkit Clients:
+## Target Webkit Clients:
 ####	  Webkit support is best support
 	  
 ```css
@@ -53,7 +53,7 @@ style="min-width:600px;"
 
 <em>-courtesy of Kevin Mandeville</em>
   
-##Margins and Float in Outlook:
+## Margins and Float in Outlook:
 ####	  Use a capital “M” or “F”
 	  
 ```html
@@ -62,7 +62,7 @@ style="Margin: 20px; Float: left"
 
 <em>-courtesy of Nicole Merlin</em>
 
-##Interactive Email in Gmail:
+## Interactive Email in Gmail:
 ####	No Class or ID selector support
 
 Use lang as selector with "x-" prefix
@@ -76,7 +76,7 @@ Use lang as selector with "x-" prefix
 
 <em>-courtesy of Justin at FreshInbox</em>
 
-##Interactive Email con’t - Hover!:
+## Interactive Email con’t - Hover!:
 ####   Hover effect works on these clients:
 
 Gmail: 
@@ -96,14 +96,14 @@ Yahoo! Web:
 ```
 <em>-courtesy of Justin at FreshInbox</em>
 
-##Outlook “View in Browser”:
+## Outlook “View in Browser”:
 #### 	Forces Outlook to provide a “view in browser link”
 
 ```css
 #outlook a { padding: 0; }
 ```
 
-##Images in Outlook 2013:
+## Images in Outlook 2013:
 #### 	Fix broken images in Outlook 2013
 
 ```html
@@ -112,7 +112,7 @@ Yahoo! Web:
 </td>
 ```
 
-##Remove autolink styling in iOS:
+## Remove autolink styling in iOS:
 #### 	Fix automatic styling of phone numbers, etc.
 
 Use a span:
@@ -127,7 +127,7 @@ Add additional classes such as `.appleLinksWhite a`, `.appleLinksPink a` when ap
 
 <em>-courtesy of Justine Jordan</em>
 
-##Stop some clients from stripping class:
+## Stop some clients from stripping class:
 #### 	Some clients strip any lines starting with “.”
 
 Use a space before any class styling
@@ -137,7 +137,7 @@ Use a space before any class styling
 
 <em>-courtesy of Campaign Monitor http://kb.mailchimp.com/campaigns/ways-to-build/using-css-in-campaigns</em>
 
-##Hide content in Office 365 (incl Webmail):
+## Hide content in Office 365 (incl Webmail):
 #### 	Office 365 strips display, mso-hide, mso conditional
 
 Set font-size in containing cell to “0px”
@@ -146,7 +146,7 @@ Set font-size in containing cell to “0px”
 <td style="font-size: 0px; display: none;"></td>
 ```
 
-##Good formatting for bulleted list:
+## Good formatting for bulleted list:
 #### 	Stops bullet from sitting between two lines
 
 ```html
@@ -160,7 +160,7 @@ Set font-size in containing cell to “0px”
 
 <em>-courtesy of Michelle Klann</em>
 
-##Ghost column to emulate "align" in Outlook
+## Ghost column to emulate "align" in Outlook
 ####	Outlook hates "align"; we love conditionals
 
 ```html
@@ -173,7 +173,7 @@ Set font-size in containing cell to “0px”
 
 <em>-courtesy of Mike Ragan http://labs.actionrocket.co/make_mobile_email_work_in_outlook</em>
 
-##Windows Phone 8 CSS3 support (IE Mobile)
+## Windows Phone 8 CSS3 support (IE Mobile)
 ####	Windows Phone 8 renders with IE7 standards by default with POP3/IMAP accounts
 
 ```html
@@ -186,7 +186,7 @@ Note: Exchange ActiveSync based accounts do not benefit from forcing the documen
 
 <em>-courtesy of zerocents and James White</em>
 
-##Fix mailto in Outlook.com
+## Fix mailto in Outlook.com
 ####	Outlook.com stops mailto from opening a new message
 
 Add `"target=_blank"`
@@ -197,7 +197,7 @@ Add `"target=_blank"`
 
 <em>-courtesy of Matthijs</em>
 
-##Fix mailto in gmail
+## Fix mailto in gmail
 ####	gmail strips subject and body from mailto links
 
 Use lowercase for subject and body attribute
@@ -208,7 +208,7 @@ Use lowercase for subject and body attribute
 
 <em>-courtesy of SV</em>
 
-##Image gaps in Office 365 (OWA)
+## Image gaps in Office 365 (OWA)
 ####	Office 365 strips display:block causing images to have massive gaps
 
 Wrapping an image in a `<div>` with a height equal to the image height will simulate
